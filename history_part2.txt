@@ -1,0 +1,88 @@
+    1  explorer .
+    2  pwd
+    3  python --version
+    4  conda --version
+    5  
+    6  code "/c/Program Files/Git/etc/profile.d/git-prompt.sh"
+    7  conda install jupyterlab jupyterlab-git jupyterlab-spellchecker
+    8  jupyter lab
+    9  code ~/.bash_profile
+   10  R --version
+   11  R --version
+   12  latex --version
+   13  
+   14  code ~/.bash_profile
+   15  make --version
+   16  docker run hello-world
+   17  docker run hello-world
+   18  bash <(curl -Ss https://raw.githubusercontent.com/UBC-DSCI/dsci-310-student/main/src/check_setup.sh)
+   19  bash <(curl -Ss https://raw.githubusercontent.com/UBC-DSCI/dsci-310-student/main/src/check_setup.sh)
+   20  ls
+   21  cd
+   22  pwd
+   23  bash <(curl -Ss https://raw.githubusercontent.com/UBC-DSCI/dsci-310-student/main/src/check_setup.sh)
+   24  cd Documents/GitHub/dsci310_midterm_review
+   25  code tutorial4instructions.txt
+   26  git status
+   27  git status
+   28  git add history.txt
+   29  git commit -m "created history file as of tutorial 2"
+   30  git status
+   31  git add .Rprofile dsci310_midterm_review.Rproj
+   32  git status
+   33  git commit -m "create R project for R environments"
+   34  git add .
+   35  git commit -m "set up r environment"
+   36  docker run hello-world
+   37  docker run --rm -e PASSWORD="pizza" -p 8787:8787 rocker/rstudio:4.4.2
+   38  code bash_script.sh
+   39  bash bash_script.sh
+   40  code tutorial5instructions.txt
+   41  code Dockerfile
+   42  docker build --tag testcontainer .
+   43  docker build --tag testcontainer .
+   44  docker build --tag testcontainer .
+   45  docker compose up
+   46  docker compose rm
+   47  mkdir .github/workflows/
+   48  mkdir -p .github/workflows/
+   49  cd .github/workflows/
+   50  code bash.yml
+   51  cd ..
+   52  cd ..
+   53  git status
+   54  git add tutorial4instructions.txt tutorial5instructions.txt
+   55  git commit -m "added tutorials"
+   56  git status
+   57  git add Dockerfile
+   58  git commit -m "create Dockerfile for specifications in the image"
+   59  git add bash_script.sh
+   60  git commit -m "create bash script to run bash commands easier"
+   61  git status
+   62  git add docker-compose.yml
+   63  git commit -m "create docker-compose file for easier docker container running"
+   64  git add .
+   65  git commit -m "create files for actions on GitHub"
+   66  git push origin main
+   67  git pull
+   68  git push origin main
+   69  LS
+   70  mv tutorial2instructions.txt tutorials/
+   71  mkdir tutorials/
+   72  mv tutorial2instructions.txt tutorials/
+   73  ls
+   74  mv tutorial3instructions.txt tutorials/
+   75  mv tutorial4instructions.txt tutorials/
+   76  mv tutorial5instructions.txt tutorials/
+   77  ls
+   78  git status
+   79  git add .
+   80  git commit -m "moved tutorial instructions into folder"
+   81  git status
+   82  git push origin main
+   83  history > history.txt
+   84  history
+   85  git status
+   86  git restore history.txt
+   87  git status
+   88  history > history_part2.txt
