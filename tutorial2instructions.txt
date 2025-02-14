@@ -1,0 +1,50 @@
+2025-01-17-tutorial-git_branches
+Tutorial 2:
+
+Git + GitHub Branches & Installation Help
+
+Git + GitHub Practice:
+
+1. Create a github repository from github.com
+2. Clone it down to your computer
+3. Create/Edit the README file and write a shore definition for the following commands:
+
+- git branch
+- git switch
+- git log --oneline --graph --all
+
+4. add/commit/push your definitions to yoru github repository
+
+Low let's make a branch + PR (pull request)
+
+5. create a new branch (does not matter what name you give it)
+6. in the new branch define the following terms
+
+- branch
+- pull request
+
+7. push your branch up to github and create a pull request
+8. make a comment in your own pull request
+9. merge your pull request into main
+10. update your local main branch
+
+Extra (we haven't seen it in class yet)
+Let's create a PR with a merge conflict
+
+11. Create a new branch from main, edit the readme file, at the top and define the follow terms
+
+- git add
+- git commit
+
+12. push this branch and create a PR, but DO NOT merge it
+
+13. on your local machine, go back to your main branch
+14. create yet another branch from main (you should not be on your previous branch)
+15. at the top of your readme file define the following terms
+
+- git push ...
+- git pull ...
+
+16. add/commit/push your branch
+17. create another PR from your second branch
+18. Try to merge both branches now, you should see a merge conflict when you try to merge the 2nd branch
