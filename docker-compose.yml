@@ -1,0 +1,13 @@
+services:
+  analysis-env:
+    image: hlan22/mycontainer
+    ports:
+      - "8787:8787"
+    volumes:
+      - .:/home/rstudio/work
+    environment:
+      PASSWORD: "pizza"
+
+# This file is a replacement for having to write the following command line
+# docker run --rm -it -e PASSWORD="pizza" -p 8787:8787 
+# -v /$(pwd):/home/rstudio/work rocker/tidyverse:4.4.2
