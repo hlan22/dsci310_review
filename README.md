@@ -9,6 +9,8 @@ Tutorial 2 definitions:
 * `git log --oneline --graph --all`: Gives a log of previous git commits in a graphical and simplified version.
 * `git push origin <branch>`: pushes your commit to the remote repository. It is good practice to tell it where/remote (origin) and what/branch (main). Origin is a shortcut name for the http:/ link of your repo!
 * `git pull origin main`: brings changes from the remote to the local machine.
+* `git add <file>`: will add files to be staged to the commit
+* `git commit -m "<message>"`: creates a commit/snapshot with the changes in the staging area, with the message you supplied.
 
 > Now in new_branch we will add these definitions:
 
