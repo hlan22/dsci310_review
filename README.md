@@ -1,2 +1,14 @@
-# dsci310_midterm_review
-Home repo for review exercises for the DSCI 310 midterm
+# DSCI310 Midterm Review
+
+Home repo for review exercises for the DSCI 310 midterm!
+
+Tutorial 2 definitions:
+
+* `git branch`: Lists all the branches in a repository.
+* `git switch`: If you choose which branch to switch to, it will jump to that branch.
+* `git log --oneline --graph --all`: Gives a log of previous git commits in a graphical and simplified version.
+
+> Now in new_branch we will add these definitions:
+
+* **branch**: your own "playground" of sorts that allows you to work without impacting the main repo.
+* **pull request**: is a proposal to merge changes from one branch into another (usually the main). You are requesting to pull the changes made from a branch onto the main repo. (Sort of like a reverse pull).
