@@ -1,0 +1,65 @@
+    1  explorer .
+    2  pwd
+    3  python --version
+    4  conda --version
+    5  
+    6  code "/c/Program Files/Git/etc/profile.d/git-prompt.sh"
+    7  conda install jupyterlab jupyterlab-git jupyterlab-spellchecker
+    8  jupyter lab
+    9  code ~/.bash_profile
+   10  R --version
+   11  R --version
+   12  latex --version
+   13  
+   14  code ~/.bash_profile
+   15  make --version
+   16  docker run hello-world
+   17  docker run hello-world
+   18  bash <(curl -Ss https://raw.githubusercontent.com/UBC-DSCI/dsci-310-student/main/src/check_setup.sh)
+   19  bash <(curl -Ss https://raw.githubusercontent.com/UBC-DSCI/dsci-310-student/main/src/check_setup.sh)
+   20  ls
+   21  cd
+   22  pwd
+   23  bash <(curl -Ss https://raw.githubusercontent.com/UBC-DSCI/dsci-310-student/main/src/check_setup.sh)
+   24  cd Documents/GitHub
+   25  cd dsci310
+   26  cd ..
+   27  git clone https://github.com/hlan22/dsci310_midterm_review.git
+   28  cd dsci310_midterm_review
+   29  code tutorial2instructions.txt
+   30  code README.md
+   31  git branch
+   32  git switch
+   33  git log --oneline --graph --all
+   34  git status
+   35  git add README.md 
+   36  git commit -m "added definitions from tutorial 2"
+   37  git switch -c new_branch
+   38  code README.md
+   39  git status
+   40  git status
+   41  git add README.md
+   42  git commit -m "added some definitions to the README.md file"
+   43  git push origin new_branch
+   44  git switch main
+   45  git pull
+   46  git status
+   47  code tutorial3instructions.txt
+   48  git status
+   49  git add .
+   50  git commit -m "tutorial instructions"
+   51  git switch -c branch1
+   52  code README.md
+   53  git status
+   54  git add README.md
+   55  git commit -m "added 2 definitions from branch1"
+   56  git push origin branch1
+   57  git switch main
+   58  git switch -c branch2
+   59  code README.md
+   60  git status
+   61  git add README.md
+   62  git commit -m "added definitions on branch2"
+   63  git push origin branch2
+   64  git switch main
+   65  history > history.txt
