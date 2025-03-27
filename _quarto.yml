@@ -1,8 +1,9 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: ""DSCI 310 Review""
+  title: "DSCI 310 Review"
   navbar:
     left:
       - href: index.qmd

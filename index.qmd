@@ -1,5 +1,5 @@
 ---
-title: ""DSCI 310 Review""
+title: "DSCI 310 Review"
 ---
 
 This is a Quarto website.
